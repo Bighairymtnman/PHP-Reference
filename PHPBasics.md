@@ -10,19 +10,6 @@
 - [Basic Error Handling](#basic-error-handling)
 - [Including Files](#including-files)
 
-
-# PHP Basics Guide
-
-## Table of Contents
-- [Introduction to PHP](#introduction-to-php)
-- [Setting Up PHP](#setting-up-php)
-- [Basic Syntax](#basic-syntax)
-- [Variables & Echo](#variables--echo)
-- [Data Types In-Depth](#data-types-in-depth)
-- [Working with Forms](#working-with-forms)
-- [Basic Error Handling](#basic-error-handling)
-- [Including Files](#including-files)
-
 ## Introduction to PHP
 
 ### What is PHP?
