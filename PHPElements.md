@@ -8,7 +8,6 @@
 - [Arrays](#arrays)
 - [Superglobals](#superglobals)
 
-
 ## Variables & Data Types
 
 // Variables in PHP start with $ symbol
@@ -23,52 +22,76 @@ $variableName = value;
 - Array: `$array = [1, 2, 3];`        // Collection of values
 - Object: `$obj = new stdClass();`    // Instance of a class
 
-
-
 ## Operators
 
 ### Arithmetic Operators
 // Used for performing mathematical operations
-+ Addition:         `$a + $b`    // Adds values
-- Subtraction:      `$a - $b`    // Subtracts values
-* Multiplication:   `$a * $b`    // Multiplies values
-/ Division:         `$a / $b`    // Divides values
-% Modulus:          `$a % $b`    // Returns division remainder
-** Exponentiation:  `$a ** $b`   // Raises to power (PHP 5.6+)
+
++ Addition: `$a + $b`    // Adds values
+
+- Subtraction: `$a - $b`    // Subtracts values
+
+* Multiplication: `$a * $b`    // Multiplies values
+
+/ Division: `$a / $b`    // Divides values
+
+% Modulus: `$a % $b`    // Returns division remainder
+
+** Exponentiation: `$a ** $b`   // Raises to power (PHP 5.6+)
+
 
 ### Assignment Operators
 // Used to assign values to variables
-=   Basic:          `$x = 5`     // Assigns value
-+=  Addition:       `$x += 5`    // Same as: $x = $x + 5
--=  Subtraction:    `$x -= 5`    // Same as: $x = $x - 5
+
+=   Basic: `$x = 5`     // Assigns value
+
++=  Addition: `$x += 5`    // Same as: $x = $x + 5
+
+-=  Subtraction: `$x -= 5`    // Same as: $x = $x - 5
+
 *=  Multiplication: `$x *= 5`    // Same as: $x = $x * 5
-/=  Division:       `$x /= 5`    // Same as: $x = $x / 5
-%=  Modulus:        `$x %= 5`    // Same as: $x = $x % 5
+
+/=  Division: `$x /= 5`    // Same as: $x = $x / 5
+
+%=  Modulus: `$x %= 5`    // Same as: $x = $x % 5
+
 
 ### Comparison Operators
 // Used to compare two values
-==  Equal:          `$a == $b`   // True if values are equal
-=== Identical:      `$a === $b`  // True if values AND types are equal
-!=  Not equal:      `$a != $b`   // True if values are not equal
-<>  Not equal:      `$a <> $b`   // Alternative notation
-!== Not identical:  `$a !== $b`  // True if values OR types are not equal
->   Greater than:   `$a > $b`    // True if $a is greater than $b
-<   Less than:      `$a < $b`    // True if $a is less than $b
->=  Greater/equal:  `$a >= $b`   // True if $a is greater than or equal to $b
-<=  Less/equal:     `$a <= $b`   // True if $a is less than or equal to $b
+
+==  Equal: `$a == $b`   // True if values are equal
+
+=== Identical: `$a === $b`  // True if values AND types are equal
+
+!=  Not equal: `$a != $b`   // True if values are not equal
+
+<>  Not equal: `$a <> $b`   // Alternative notation
+
+!== Not identical: `$a !== $b`  // True if values OR types are not equal
+
+>   Greater than: `$a > $b`    // True if $a is greater than $b
+
+<   Less than: `$a < $b`    // True if $a is less than $b
+
+>=  Greater/equal: `$a >= $b`   // True if $a is greater than or equal to $b
+
+<=  Less/equal: `$a <= $b`   // True if $a is less than or equal to $b
+
 
 ### Logical Operators
 // Used to combine conditional statements
-&&  AND:   `$a && $b`   // True if both $a AND $b are true
-||  OR:    `$a || $b`   // True if either $a OR $b is true
-!   NOT:   `!$a`        // True if $a is not true
-and  AND:  `$a and $b`  // Alternative AND syntax
-or   OR:   `$a or $b`   // Alternative OR syntax
-xor  XOR:  `$a xor $b`  // True if either $a or $b is true, but not both
 
+&&  AND: `$a && $b`   // True if both $a AND $b are true
 
+||  OR: `$a || $b`   // True if either $a OR $b is true
 
+!   NOT: `!$a`        // True if $a is not true
 
+and  AND: `$a and $b`  // Alternative AND syntax
+
+or   OR: `$a or $b`   // Alternative OR syntax
+
+xor  XOR: `$a xor $b`  // True if either $a or $b is true, but not both
 
 
 ## Control Structures
@@ -133,10 +156,6 @@ foreach ($array as $key => $value) {
 }
 ```
 
-
-
-
-
 ## Functions
 
 ### Basic Function Structure
@@ -177,22 +196,34 @@ $multiply = fn($a, $b) => $a * $b;
 
 ### Built-in Functions
 // String Functions
+
 strlen()    // Get string length
+
 str_replace() // Replace text within string
+
 substr()    // Get part of string
 
+
 // Array Functions
+
 count()     // Count elements in array
+
 array_push() // Add element to array
+
 array_pop() // Remove last element
+
 sort()      // Sort arrays
 
-// Math Functions
-round()     // Rounds number
-rand()      // Generate random number
-max()       // Find highest value
-min()       // Find lowest value
 
+// Math Functions
+
+round()     // Rounds number
+
+rand()      // Generate random number
+
+max()       // Find highest value
+
+min()       // Find lowest value
 
 
 ## Arrays
@@ -224,22 +255,37 @@ $matrix = [
 
 ### Array Operations
 // Adding Elements
+
 $array[] = value;              // Add to end
+
 array_push($array, value);     // Add to end
+
 array_unshift($array, value);  // Add to beginning
 
+
 // Removing Elements
+
 array_pop($array);            // Remove from end
+
 array_shift($array);          // Remove from beginning
+
 unset($array[index]);         // Remove specific element
 
+
 ### Array Functions
+
 count()          // Count elements
+
 array_merge()    // Merge arrays
+
 array_slice()    // Extract portion of array
+
 array_splice()   // Remove/replace portion
+
 array_search()   // Search array
+
 in_array()       // Check if value exists
+
 array_key_exists() // Check if key exists
 
 
@@ -300,4 +346,3 @@ $GLOBALS    // References all variables in global scope
 $x = 10;
 echo $GLOBALS['x'];  // Access global variable
 ```
-
