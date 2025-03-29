@@ -16,17 +16,11 @@ $variableName = value;
 
 ### Basic Data Types
 - String: `$text = "Hello World";`    // Text enclosed in quotes
-  
 - Integer: `$number = 42;`            // Whole numbers
-  
 - Float: `$decimal = 3.14;`           // Decimal numbers
-  
 - Boolean: `$isTrue = true;`          // true or false
-  
 - Null: `$empty = null;`              // No value assigned
-  
 - Array: `$array = [1, 2, 3];`        // Collection of values
-  
 - Object: `$obj = new stdClass();`    // Instance of a class
 
 
