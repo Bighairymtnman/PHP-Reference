@@ -112,7 +112,7 @@ The Advanced section covers professional PHP development techniques:
 
 ## Repository Structure
 ```
-php-guide/
+PHP-Reference/
 ├── PHPElements.md    # Quick Reference
 ├── PHPBasics.md      # Fundamental Concepts
 └── AdvancedPHP.md    # Advanced Topics
